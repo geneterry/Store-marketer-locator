@@ -1,0 +1,755 @@
+.avatar-upload {
+  position: relative;
+  max-width: 205px;
+  margin: 15px auto;
+  z-index: 10;
+}
+.avatar-upload .avatar-edit {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    top: -12px;
+}
+.avatar-upload > .leads-info-form {
+    position: absolute !important;
+    right: 0;
+    z-index: 1;
+    top: -15px;
+}
+.avatar-upload .avatar-edit input {
+  display: none;
+}
+.avatar-upload .avatar-edit input + label {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.2s ease-in-out;
+}
+.avatar-upload .avatar-edit input + label:hover {
+  background: #f1f1f1;
+  border-color: #d6d6d6;
+}
+.avatar-upload .avatar-edit input + label:after {
+  content: "\f040";
+  font-family: 'FontAwesome';
+  color: #757575;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatar-upload .avatar-preview {
+  width: 192px;
+  height: 192px;
+  position: relative;
+}
+.avatar-upload .avatar-preview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.d-none{
+  display: none;
+}
+.bg-gray{
+  background-color: #f5f5f5;
+}
+.bg-white{
+  background-color: #fff;
+}
+
+
+.profile-info-column {
+    margin-top: 5%;
+}
+section.about-us {
+    border-top: 1px solid #cdcdcd;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+section.testimonial {
+    border-top: 1px solid #cdcdcd;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+section.book-form {
+    border-top: 1px solid #cdcdcd;
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+/*Leads Dashboard*/
+section.dash-section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background: #2d6287;
+}
+section.dash-section .nav-link {
+    color: #2d6287;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+}
+section.dash-section #v-pills-tab {
+    box-shadow: 0 0 15px #eee;
+}
+section.dash-section  .nav-link i {
+    font-size: 32px;
+}
+section.dash-section .container {
+    background: #fff;
+}
+section.dash-section {
+    padding: 20px;
+    background: #fff;
+}
+section.dash-section .dashboard-btn .card {
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    border: 0;
+    box-shadow: 0 0 10px #eee;
+}
+
+section.dash-section .dashboard-btn .card h3 {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+section.dash-section .dashboard-btn .card i {
+    font-size: 60px;
+    padding-top: 20px;
+    color: #2d6287;
+}
+/*section.dash-section .dashboard-btn .card:hover {
+    border: 1px solid #2d6287;
+}*/
+section.dash-section .dashboard-btn .card:hover h3 {
+    color: #2d6287;
+}
+/*.modal-backdrop{
+  z-index: 0 !important;
+}*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #004775;
+    border-color: #004775;
+    text-transform: uppercase;
+}
+.input-danger{
+  border-color: #dc3545;
+}
+
+.d-none{
+  display: none;
+}
+
+table#store_locator_hours {
+    width: 100%;
+    text-align: center;
+}
+.blurred-text{
+    text-shadow: 0 1px 5px #aaa;
+    color: transparent;
+}
+
+
+.ap-dashboard-box {
+    position: relative;
+    top: -105px;
+    border: 1px solid #2d6287;
+    padding: 25px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.ap-info-box {
+    border: 1px solid #2d6287;
+    padding: 25px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+h4.reg-title {
+    color: #2d6287;
+    font-weight: 600;
+}
+
+hr.h-reg-line-left {
+    position: absolute;
+    top: 82%;
+    left: -75%;
+    width: 150px;
+    border: 0;
+    border-bottom: 2px solid #2d6287;
+}
+
+hr.h-reg-line-right {
+    position: absolute;
+    top: 82%;
+    right: -75%;
+    width: 150px;
+    border: 0;
+    border-bottom: 2px solid #2d6287;
+}
+
+
+/** table **/
+
+table#store_locator_hours {
+    width: 100%;
+    text-align: center;
+}
+
+table#store_locator_hours td.tbl_store_days {
+    width: 10%;
+    border: 0;
+}
+
+table#store_locator_hours td.tbl_store_status {
+    width: 60%;
+    border: 0;
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-around;
+}
+.start_time, .end_time {
+    margin: 0 3px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid #004775;
+}
+
+table#store_locator_hours td.tbl_store_hours {
+    border: 0;
+}
+
+input[type="checkbox"] {
+    position: relative;
+}
+
+strong.user-total-credits {
+    font-size: 22px;
+}
+#enquiryTable, #testimonialList{
+  width: 100% !important;
+}
+
+/*** Leads info ***/
+
+.info-col-dash{
+
+}
+
+label > strong{
+  color: #2d6287;
+}
+
+.card-body > .card-title{
+  color: #2d6287;
+}
+
+.avatar-upload .avatar-dash {
+    width: 192px;
+    height: 192px;
+    position: relative;
+    border-radius: 10px;
+    border: 5px solid #2d6287;
+    left: 5%;
+}
+
+
+.leads-top-edit {
+    margin-top: 15%;
+}
+
+tr.odd, tr.odd .sorting_1, tr.even, tr.even .sorting_1 {
+    background-color: #fff !important;
+}
+
+#testimonialList .access-testimonial, #testimonialList .edit-testimonial, #testimonialList .delete-testimonial{
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+#testimonialList .access-testimonial {
+    background: #004775;
+}
+#testimonialList .edit-testimonial {
+    background: #1781bc;
+}
+#testimonialList .delete-testimonial {
+    background: #e00000;
+}
+
+/*Featured Physio Ribbon*/
+.featured-physio .card-body {
+    padding: 10px;
+    min-height: 90px;
+}
+/* common */
+.ribbon {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute !important;
+  z-index: 2;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #2980b9;
+}
+.store-locator-item-container .store-locator-item .ribbon > span:after{
+  content: '';
+}
+
+.store-locator-item-container .store-locator-item {
+    margin-top: 15px;
+  	border-top: 0;
+    background-color: #004774 !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.store-locator-item-container {
+    padding: 15px;
+}
+
+.store-locator-item-container .store-locator-item a {
+    color: #fff;
+    background: #3498db;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.store-locator-item .wpsl-name {
+	color: #fff !important;
+  	width: 90%;
+}
+
+.map-listings.left .store-direction {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.map-listings.left .wpsl-distance {
+    margin-top: 8px !important;
+    margin-bottom: 10px;
+}
+
+.map-listings.left .wpsl-wesite-link {
+    margin-top: 10px;
+}
+
+.map-listings.left .wpsl-wesite-link a, .map-listings.left  .wpsl-wesite-link {
+    width: 100%;
+    text-align: center;
+}
+
+.map-listings.left .section-hero-header-directions-icon {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.search-options-btn {
+    background-color: #004774 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.wpsl-list-title {
+    background-color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333 !important;
+    text-align: left !important;
+    border-bottom: 1px solid #333;
+    letter-spacing: 1px;
+    margin-top: 25px;
+    float: left;
+    width: 100%;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block !important;
+    width: 120px !important;
+    padding: 6px 0;
+    background-color: #3498db;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 11px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+}
+/* top right*/
+.ribbon-top-right {
+  top: -9px;
+  right: 7px;
+}
+
+.store-locator-item > .ribbon-top-right {
+    top: -18px;
+    right: -10px;
+}
+
+.ribbon-top-right::before,
+.ribbon-top-right::after {
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon-top-right::before {
+  top: 0;
+  left: 18px;
+}
+.ribbon-top-right::after {
+    bottom: 18px;
+    right: 0;
+}
+.ribbon-top-right span {
+    left: 5px;
+    top: 20px;
+    transform: rotate(45deg);
+}
+
+/***Email css***/
+
+.email-section .email-head {
+  background: #004774;
+  text-align: center;
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+.email-section .email-head h1 {
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+section.email-section {
+  max-width: 600px;
+  border: 2px solid #004774;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.email-section .email-body {
+  padding: 20px 30px;
+}
+.email-section .email-footer img {
+  width: 150px;
+  margin-top: 10px;
+}
+.email-section .email-receiver {
+  font-size: 16px;
+  font-weight: bold;
+  color: #1781bc;
+  line-height: 3;
+}
+.email-message {
+  margin-bottom: 15px;
+}
+.email-section .email-footer {
+  font-weight: 500;
+  color: #1781bc;
+}
+
+.store-locator-item-container::-webkit-scrollbar, select::-webkit-scrollbar {
+    width: 0px !important;
+}
+
+#registerServiceProviderForm table#store_locator_hours tr:first-child .tbl_store_hours .end_time {
+    margin-right: 68px;
+}
+.dataTables_wrapper .dataTables_processing{
+  top: 55% !important;
+}
+.data-preloader .spinner-border {
+
+    color: #2d6287;
+    height: 3rem;
+    width: 3rem;
+    background: white;
+    font-size: 22px;
+
+}
+
+button.btn.btn-default {
+    background: #333;
+    color: #fff;
+}
+#dashboard-edit-form .leads-info-col.leads-info-col-top {
+    margin-top: 75px;
+}
+
+.ui-timepicker-list li {
+    font-weight: 600;
+    color: #004775;
+}
+
+.featured-physio .card-img-top {
+    height: 180px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
+/* Social Share Icons */
+
+.social-share a {
+    padding: 9px;
+    border-radius: 4px;
+    width: 35px;
+    text-align: center;
+    margin: 10px 2px;
+    color: white;
+}
+
+.social-share a:hover {
+    color: white;
+}
+
+.social-share a.fa.fa-facebook {
+   border: 2px solid #3b5998;
+   background: #3b5998;
+}
+
+.social-share a.fa.fa-linkedin {
+   border: 2px solid #007bb5;
+   background: #007bb5;
+}
+
+.social-share a.fa.fa-twitter {
+   border: 2px solid #55acee;
+   background: #55acee;
+}
+
+ 
+/*.store-search-fields .store_locator_field:nth-child(2) {
+    width: 39%;
+}*/
+
+.gender-icons i {
+    background-color: #004775;
+    color: #fff;
+    padding: 10px 15px;
+    width: 50px;
+    font-size: 27px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: 2px solid #004775;
+}
+.gender-icons i.active {
+    background: #fff;
+    color: #004775;
+    border: 2px solid #004775;
+}
+.gender-icons i.active:after {
+    content: '\f14a';
+    font-family: FontAwesome;
+    position: absolute;
+    bottom: -19px;
+    z-index: 5;
+    background: red;
+    color: #004775;
+    background: #fff;
+    border-radius: 5px;
+    left: 12px;
+}
+#store_locatore_search_physio {
+    margin-top: 10px;
+}
+
+/*------Physio Category-------*/
+.physio-category .card-img-top{
+  height: 150px;
+  object-fit: cover;
+  object-position: center center;
+}
+.physio-category .card-body{
+  padding: .85rem;
+}
+
+.text-blue{
+  color: #2d6287;
+}
+.testimonial-icon{
+    padding: 10px;
+      background-color: #004775;
+      border-radius: 50px;
+      margin-bottom: 10px;
+      color: #fff;
+  }
+span.required{
+      position: relative;
+      font-size: 25px;
+      top:5px;
+    }
+table#globalEnquiryTable {
+    width: 100% !important;
+}
+
+.padmin-verify-button{
+    background-color: #222;
+    font-weight: 600;
+    border: 0;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1;
+    font-weight: normal;
+    padding: 1em 2em;
+    text-shadow: none;
+    -webkit-transition: background 0.2s;
+    transition: background 0.2s;
+    font-family: inherit;
+}
+
+@media screen and (max-width:480px){
+	.button-container{
+		text-align: center!important;
+	}
+}
+@media screen and (max-width:1200px){
+	.card-deck{
+		flex-flow: column!important;
+		position: relative;
+		text-align: center;
+		align-items: center;
+	}
+	/*.card-deck .card{
+		width:50%;
+		margin-bottom:5px;
+	}*/
+}
+
+@media screen and (max-width:992px) and  (min-width:602px) {
+ .avatar-upload .avatar-dash{
+  width: 160px;
+    height: 160px;
+    left: 11%;
+}
+}
+@media screen and (max-width:602px) and  (min-width:320px) {
+.avatar-upload{
+	margin: 10px auto 30px auto;
+}
+.avatar-upload .avatar-dash {
+    width: 150px;
+    height: 150px;
+    left: 15%;
+}
+  h2 {
+    text-align: center;
+    font-size: 22px;
+}
+}
+@media screen and (max-width:768px){
+	form#book_form .button-container {
+    text-align: center!important;
+}
+  table#store_locator_hours{
+    text-align: left;
+}
+table#store_locator_hours tr td {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+table#store_locator_hours tr td:last-child {
+    margin-bottom: 5px;
+}
+  #registerServiceProviderForm table#store_locator_hours td {
+    display: block;
+}
+  .dashboard_container .card-deck.mt-3.dashboard-btn .card {
+    width: 100%;
+    margin-bottom: 15px;
+}
+}
+
+@media screen and (min-width:769px){
+  #store_locatore_search_map, .map-listings.left{
+    width: 50% !important;
+  }
+  .wpml_above_map .store_locator_field {
+    width: calc(100% / 3 - 5px) !important;
+    margin-right: 5px !important;
+  }
+  .gmnoprint.gm-bundled-control.gm-bundled-control-on-bottom {
+    bottom: auto !important;
+    top: 60px;
+  }
+}
+
+#store-locator-id .leftsidebar {
+    margin-top: -130px !important;
+}
+#store-locator-id .map-listings.left {
+    height: 600px!important;
+}
+.store-locator-item-container {
+    height: 530px !important;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 600px){
+  .col-right.right-sidebar {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  #store-locator-id .leftsidebar{
+    margin-top: 0 !important;
+  }
+  #store-locator-id .map-listings.left {
+    height: 300px!important;
+}
+  .store-locator-item-container {
+      height: 280px !important;
+      overflow-x: hidden;
+  }
+  div#store_locatore_search_map {
+      height: 360px !important;
+  }
+}
+.bg-none{
+  background: transparent;
+}
+.claim-info {
+    font-size: 12px;
+    font-weight: 600;
+}
